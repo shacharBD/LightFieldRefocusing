@@ -7,6 +7,10 @@ import tensorflow as tf
 from utils.cnn_utils import refocusNet
 from utils.image_utils import create_data_arrays, read_single_image,write_single_image
 
+"""
+This code runs on a CPU.
+If you have a GPU, uncommit line #54.
+"""
 
 def run_refocus(sess,m,n,input_data_path,main_path,focus,crop_size=6):
     """
