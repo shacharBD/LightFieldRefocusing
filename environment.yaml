@@ -1,0 +1,47 @@
+name: refocus2
+channels:
+  - defaults
+dependencies:
+  - blas=1.0=mkl
+  - certifi=2020.6.20=py36_0
+  - freetype=2.10.4=hd328e21_0
+  - imageio=2.9.0=py_0
+  - intel-openmp=2020.2=254
+  - jpeg=9b=hb83a4c4_2
+  - libpng=1.6.37=h2a8f88b_0
+  - libtiff=4.1.0=h56a325e_1
+  - lz4-c=1.9.2=hf4a77e7_3
+  - mkl=2020.2=256
+  - mkl-service=2.3.0=py36hb782905_0
+  - mkl_fft=1.2.0=py36h45dec08_0
+  - mkl_random=1.1.1=py36h47e9c7a_0
+  - numpy=1.19.1=py36h5510c5b_0
+  - numpy-base=1.19.1=py36ha3acd2a_0
+  - olefile=0.46=py36_0
+  - pillow=8.0.0=py36hca74424_0
+  - pip=20.2.4=py36_0
+  - python=3.6.12=h5500b2f_2
+  - setuptools=50.3.0=py36h9490d1a_1
+  - six=1.15.0=py_0
+  - sqlite=3.33.0=h2a8f88b_0
+  - tk=8.6.10=he774522_0
+  - vc=14.1=h0510ff6_4
+  - vs2015_runtime=14.16.27012=hf0eaf9b_3
+  - wheel=0.35.1=py_0
+  - wincertstore=0.2=py36h7fe50ca_0
+  - xz=5.2.5=h62dcd97_0
+  - zlib=1.2.11=h62dcd97_4
+  - zstd=1.4.5=h04227a9_0
+  - pip:
+    - bleach==1.5.0
+    - enum34==1.1.10
+    - html5lib==0.9999999
+    - importlib-metadata==2.0.0
+    - markdown==3.3.2
+    - protobuf==3.13.0
+    - tensorflow==1.4.0
+    - tensorflow-tensorboard==0.4.0
+    - werkzeug==1.0.1
+    - zipp==3.3.1
+prefix: C:\Users\shach\anaconda3\envs\refocus2
+
