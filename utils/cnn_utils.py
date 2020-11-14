@@ -38,6 +38,6 @@ def refocusNet(x,is_training,num_views):
     sum_lower = tf.add_n([output_lower1,output_lower2,output_lower3,output_lower4,output_lower5,output_lower6,output_lower7])
     out_lower = layers_lower(sum_lower,is_training,15,12,3)
     average = sum_lower[:,:,:,0:3]+sum_lower[:,:,:,3:6]+sum_lower[:,:,:,6:9]+sum_lower[:,:,:,9:12]
-    average = average/num_views
+    average = average/4
     final_output = out_lower+average
     return final_output
